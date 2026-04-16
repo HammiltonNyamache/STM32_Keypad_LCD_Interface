@@ -32,7 +32,7 @@ LCD: Connected to GPIOB. Control pins (RS, EN) and Data pins (D4-D7) are mapped 
 ##  Circuit Schematic
 To help with the hardware setup, here is the schematic designed and tested in Proteus. This shows the specific pin mapping for the STM32F103C6, the LCD's 4-bit connection, and the keypad matrix.
 
-![Project Schematic](path/to/your/image/Screenshot.png)
+![Project Schematic](Assets/lcdkeypad.png)
 
  **Note:** Ensure the 10k pull-up resistors on the keypad columns and the contrast potentiometer (RV2) for the LCD are connected as shown to ensure reliable operation.
  

@@ -6,7 +6,7 @@ Whether you're building a calculator, a security system, or just learning the ro
 ##  Project Overview
 The goal of this project is to create a seamless user input interface. The system polls a 4x4 matrix keypad and instantly reflects the pressed keys onto a 16x2 LCD display. It handles debouncing and includes a specific "Clear" function to reset the display, providing a smooth user experience.
 
-## 🛠 Hardware Components
+##  Hardware Components
 Microcontroller: STM32F103C6 (ARM Cortex-M3)
 
 Display: 16x2 Character LCD (LM016L)
@@ -36,6 +36,8 @@ To help with the hardware setup, here is the schematic designed and tested in Pr
 
  **Note:** Ensure the 10k pull-up resistors on the keypad columns and the contrast potentiometer (RV2) for the LCD are connected as shown to ensure reliable operation.
  
+###  Simulation
+Create the Proteus project and point the STM32 component to the .hex file in the assets folder to see it in action!  
 ##  Contributing
 I built this project to explore embedded I/O interfacing, and I’d love to hear your thoughts!
 
